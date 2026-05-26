@@ -3,6 +3,9 @@
 		{
 			"name": "JavaScript",
 			"path": "."
+		},
+		{
+			"path": "../../Downloads/lesson-3"
 		}
 	],
 	"settings": {}
