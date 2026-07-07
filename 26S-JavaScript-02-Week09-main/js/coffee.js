@@ -101,7 +101,8 @@ let priyanshLatte = new Latte("small", false, "2%");
 //Create a new subclass of Coffee named after a coffee drink of your choice (e.g. Cappuccino, Mocha, FlatWhite). Use the extends keyword to inherit from Coffee.
 
 class Mocha extends Coffee {
-
+//Add at least one unique property to your subclass beyond size and isDecaf (e.g. shots, flavour, foamLevel). Write a constructor that accepts all properties and uses super() to pass size and isDecaf up to the parent class.
+    chocolateType;
 }
 
 
