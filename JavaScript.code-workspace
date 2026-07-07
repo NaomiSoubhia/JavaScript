@@ -1,11 +1,16 @@
 {
 	"folders": [
 		{
+			"name": "lesson-3",
+			"path": "../../Downloads/lesson-3"
+		},
+		{
 			"name": "JavaScript",
 			"path": "."
 		},
 		{
-			"path": "../../Downloads/lesson-3"
+			"name": "shiv-coder COMP1073S2026 main lesson-4",
+			"path": "../../Downloads/shiv-coder COMP1073S2026 main lesson-4"
 		}
 	],
 	"settings": {}
