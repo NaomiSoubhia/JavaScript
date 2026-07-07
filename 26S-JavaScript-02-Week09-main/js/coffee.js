@@ -127,3 +127,15 @@ let thiemiMocha = new Mocha("large", false, "dark");
 naomiMocha.serveIt();
 thiemiMocha.serveIt();
 
+//Call your custom description method on each object and display the returned string on the page.
+
+let paragraph1 = document.createElement("p");
+let paragraph2 = document.createElement("p");
+
+//Showing the returned value 
+paragraph1.textContent = naomiMocha.mochaDesc();
+paragraph2.textContent = thiemiMocha.mochaDesc();
+
+//Appending the paragraphs
+output.appendChild(paragraph1);
+output.appendChild(paragraph2);
