@@ -103,6 +103,12 @@ let priyanshLatte = new Latte("small", false, "2%");
 class Mocha extends Coffee {
 //Add at least one unique property to your subclass beyond size and isDecaf (e.g. shots, flavour, foamLevel). Write a constructor that accepts all properties and uses super() to pass size and isDecaf up to the parent class.
     chocolateType;
+
+    constructor(size, isDecaf, chocolateType) {
+        super(size, isDecaf);
+        this.chocolateType = chocolateType;
+    }
+
 }
 
 
