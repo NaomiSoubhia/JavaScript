@@ -152,3 +152,15 @@ class IcedMocha extends Mocha {
         return `A ${this.size} iced Mocha with ${this.chocolateType} chocolate at ${this.temperature}.`;
     }
 }
+
+//Testing
+
+//Creating an object
+let myIcedMocha = new IcedMocha("large", false, "dark", "cold");
+
+//Calling different methods description -> One class Mocha other class IcedMocha
+console.log(myIcedMocha.mochaDesc());
+console.log(myIcedMocha.icedDesc());  
+
+// Method from the grandparent class
+myIcedMocha.serveIt(); 
