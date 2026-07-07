@@ -109,6 +109,13 @@ class Mocha extends Coffee {
         this.chocolateType = chocolateType;
     }
 
+    mochaDesc() {
+       //Add a method to your subclass that builds and returns a description string of the drink, including all properties. For example: "A large Mocha with 2 shots and caramel syrup."
+        return `A ${this.size} sized Mocha with ${this.chocolateType} chocolate.`;
+    }
+
 }
+
+
 
 
