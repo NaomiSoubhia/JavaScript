@@ -147,4 +147,8 @@ class IcedMocha extends Mocha {
         super(size, isDecaf, chocolateType);
         this.temperature = temperature;
     }
+    //unique method
+     icedDesc() {
+        return `A ${this.size} iced Mocha with ${this.chocolateType} chocolate at ${this.temperature}.`;
+    }
 }
