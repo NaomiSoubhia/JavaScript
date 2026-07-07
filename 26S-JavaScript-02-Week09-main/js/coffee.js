@@ -139,3 +139,8 @@ paragraph2.textContent = thiemiMocha.mochaDesc();
 //Appending the paragraphs
 output.appendChild(paragraph1);
 output.appendChild(paragraph2);
+
+//Create a second subclass that extends your first subclass. Add another unique property and method, and confirm it still has access to serveIt() from the original Coffee grandparent class.
+class IcedMocha extends Mocha {
+
+}
