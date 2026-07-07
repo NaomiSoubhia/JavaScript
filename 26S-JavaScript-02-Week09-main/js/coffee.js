@@ -121,4 +121,9 @@ class Mocha extends Coffee {
 //Instantiate at least two objects from your new subclass with different values.
 
 let naomiMocha = new Mocha("small", true, "milk");
-let thiemiMocha = new Mocha("large", false);
+let thiemiMocha = new Mocha("large", false, "dark");
+
+//Call the serveIt() method (inherited from the parent Coffee class) on each of your objects and observe the output on the page.
+naomiMocha.serveIt();
+thiemiMocha.serveIt();
+
