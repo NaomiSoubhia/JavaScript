@@ -142,5 +142,5 @@ output.appendChild(paragraph2);
 
 //Create a second subclass that extends your first subclass. Add another unique property and method, and confirm it still has access to serveIt() from the original Coffee grandparent class.
 class IcedMocha extends Mocha {
-
+     temperature;
 }
