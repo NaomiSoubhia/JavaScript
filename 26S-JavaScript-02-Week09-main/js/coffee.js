@@ -118,4 +118,7 @@ class Mocha extends Coffee {
 
 
 
+//Instantiate at least two objects from your new subclass with different values.
 
+let naomiMocha = new Mocha("small", true, "milk");
+let thiemiMocha = new Mocha("large", false);
